@@ -1,0 +1,37 @@
+#container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#setting{
+    margin-top: 40%;
+    margin-left: 20%;
+    text-align: center;
+    /* height: fit-content; */
+    border: 4mm ridge rgba(117, 9, 143, 0.6);
+}
+#sizeValue
+{
+    margin-top: 50px;
+}
+
+#resBtn
+{
+    margin-top: 50px;
+}
+.grid-item{
+    aspect-ratio: 1.3;
+    border: 1px solid #ddd; 
+}
+
+.ArroundPlatform{
+    text-align: center;
+    margin: 3% 25%;
+}
+
+.platform{
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols), 1fr); 
+    grid-template-rows: repeat(var(--grid-rows), 1fr);
+}

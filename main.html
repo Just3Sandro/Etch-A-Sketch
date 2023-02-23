@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Page Title</title>
+       <script src="Js.js" defer></script>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- <h1 style="color : black; text-align: center;">DRAW A THING</h1> -->
+        <div id="container">
+            <div id="setting">
+            <h1>Setting</h1>
+                <p id="sizeValue" class="size-value">4 x 4</p>
+                <input id="sizeSlider" type="range" value="4" min="1" max="64">
+                <button id="resBtn" onclick="reloadGrid()">Refresh</button>
+            </div>
+        </div>
+    </body>
+</html>
